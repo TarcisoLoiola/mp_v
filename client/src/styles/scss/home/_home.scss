@@ -1,0 +1,49 @@
+.lb-container{
+    height: 100vh;
+    position: relative;
+    background: gray;
+}
+
+.light-buld-electrical-foot-contact {
+    background: #000;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+.light-bulb-screw-threads,
+.light-bulb-screw-threads::before {
+    background: #000;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    top: 420px;
+    left: 710px;
+    border-radius: 10px;
+}
+.light-bulb-screw-threads::before {
+    content: '';
+    background: #000;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    top: -14px;
+    // left: 200px;
+    border-radius: 10px;
+}
+.light-bulb-screw-threads::after {
+    content: '';
+    background: #000;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    top: -28px;
+    // left: 200px;
+    border-radius: 10px;
+}

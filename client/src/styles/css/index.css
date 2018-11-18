@@ -1,0 +1,118 @@
+html {
+  font-family: 'Handlee', cursive; }
+
+.lf-header-logo {
+  grid-area: lf-header-logo;
+  height: 9rem;
+  justify-self: center; }
+
+.lf-header-phone {
+  grid-area: lf-header-phone;
+  justify-self: center;
+  display: inline;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: bold; }
+  .lf-header-phone a {
+    text-decoration-line: unset;
+    color: #000; }
+  @media (min-width: 425px) and (max-width: 767px) {
+    .lf-header-phone {
+      display: none; } }
+  @media (max-width: 424px) {
+    .lf-header-phone {
+      display: none; } }
+
+.lf-header-phone:hover {
+  font-weight: bolder; }
+
+.lf-header-socialMedia {
+  grid-area: lf-header-socialMedia;
+  justify-self: center;
+  display: inline; }
+  @media (min-width: 425px) and (max-width: 767px) {
+    .lf-header-socialMedia {
+      display: none; } }
+  @media (max-width: 424px) {
+    .lf-header-socialMedia {
+      display: none; } }
+
+.lf-header-alignVertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.container {
+  display: grid;
+  grid-template-areas: 'lf-header-logo lf-header-phone lf-header-socialMedia';
+  grid-gap: 10px;
+  background-color: #fafafa;
+  padding: 0 5%;
+  border: .5px solid; }
+
+.lf-navigation-container {
+  display: block;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold; }
+  .lf-navigation-container ul li {
+    list-style-type: none; }
+  .lf-navigation-container ul a {
+    text-decoration-line: unset;
+    color: #000; }
+
+li:hover {
+  font-size: 24px;
+  font-weight: bolder; }
+
+.lf-page-router-container {
+  display: grid;
+  grid-template-columns: 22% auto; }
+
+.lb-container {
+  height: 100vh;
+  position: relative;
+  background: gray; }
+
+.light-buld-electrical-foot-contact {
+  background: #000;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: rotate(45deg);
+  border-radius: 10px; }
+
+.light-bulb-screw-threads,
+.light-bulb-screw-threads::before {
+  background: #000;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 420px;
+  left: 710px;
+  border-radius: 10px; }
+
+.light-bulb-screw-threads::before {
+  content: '';
+  background: #000;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: -14px;
+  border-radius: 10px; }
+
+.light-bulb-screw-threads::after {
+  content: '';
+  background: #000;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: -28px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=index.css.map */
